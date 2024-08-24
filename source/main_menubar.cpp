@@ -1235,7 +1235,6 @@ void MainMenuBar::OnCountMonstersOnSelection(wxCommandEvent &WXUNUSED(event)) {
 	g_gui.PopupDialog("Count Monsters", message, wxOK);
 }
 
-
 void MainMenuBar::OnRemoveMonstersOnSelection(wxCommandEvent &WXUNUSED(event)) {
 	if (!g_gui.IsEditorOpen()) {
 		return;
